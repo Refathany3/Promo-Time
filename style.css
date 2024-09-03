@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f492;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px;
+}
+
+header h1 {
+    color: #333;
+    font-size: 2rem;
+}
+
+header p {
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.promo-code, .timer, .tips {
+    margin-bottom: 20px;
+}
+
+.promo-code p, .timer p {
+    font-size: 1.2rem;
+}
+
+.timer button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.timer button:hover {
+    background-color: #218838;
+}
+
+#timeDisplay {
+    margin-top: 10px;
+    font-size: 2rem;
+    color: #333;
+}
+
+.tips ul {
+    text-align: left;
+    padding-left: 20px;
+}
+
+.tips li {
+    margin-bottom: 10px;
+    font-size: 1rem;
+    color: #555;
+}
